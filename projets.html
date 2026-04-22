@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projets - Portfolio Obed</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body class="bg-black text-white font-sans overflow-x-hidden">
+
+    <!-- HEADER -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-5 md:px-6 py-5 flex items-center justify-between">
+            <a href="index.html" class="text-3xl md:text-2xl font-bold">Hello</a>
+
+            <div class="flex items-center gap-4 md:gap-5">
+                <nav class="hidden md:flex gap-8 text-sm">
+                    <a href="index.html" class="hover:text-cyan-400 transition">Accueil</a>
+                    <a href="projets.html" class="hover:text-cyan-400 transition">Projets</a>
+                    <a href="contact.html" class="hover:text-cyan-400 transition">Contact</a>
+                </nav>
+
+                <span class="text-cyan-400 text-2xl">
+                    <i class="fas fa-moon"></i>
+                </span>
+
+                <!-- BURGER -->
+                <details class="md:hidden relative">
+                    <summary class="list-none text-3xl cursor-pointer">
+                        <i class="fas fa-bars"></i>
+                    </summary>
+
+                    <div class="absolute right-0 mt-4 w-48 bg-neutral-900 rounded-xl border border-white/10">
+                        <a href="index.html" class="block px-6 py-3 hover:text-cyan-400">Accueil</a>
+                        <a href="contact.html" class="block px-6 py-3 hover:text-cyan-400">Contact</a>
+                        <a href="projets.html" class="block px-6 py-3 hover:text-cyan-400">Projets</a>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION PROJETS -->
+    <section class="min-h-screen pt-28 md:pt-32 pb-16">
+        <div class="max-w-7xl mx-auto px-5 md:px-6">
+
+            <!-- TITRE -->
+            <div class="mb-12 text-center md:text-left">
+                <p class="uppercase tracking-[0.18em] text-cyan-400 font-bold mb-4">
+                    PROJETS
+                </p>
+
+                <h2 class="text-4xl md:text-7xl font-black text-cyan-400 mb-6">
+                    Mes projets
+                </h2>
+
+                <p class="text-gray-300 max-w-2xl">
+                    Voici quelques projets que j’ai réalisés avec un design moderne et responsive.
+                </p>
+            </div>
+
+            <!-- GRID -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- PROJET 1 -->
+                <div
+                    class="bg-neutral-900 rounded-3xl overflow-hidden border border-white/10 hover:-translate-y-2 transition">
+                    <div class="overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800"
+                            class="w-full h-52 object-cover transition duration-300 hover:scale-110" alt="Projet 1">
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Portfolio</h3>
+                        <p class="text-gray-400 text-sm mb-6">
+                            Site portfolio moderne réalisé avec HTML et TailwindCSS.
+                        </p>
+
+                        <div class="flex gap-3">
+                            <a href="#"
+                                class="flex-1 text-center bg-cyan-400 text-black py-2 rounded-full text-sm font-bold hover:scale-105 transition">
+                                Voir site
+                            </a>
+
+                            <a href="#"
+                                class="flex-1 text-center border border-white/20 py-2 rounded-full text-sm font-bold hover:bg-white hover:text-black transition">
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJET 2 -->
+                <div
+                    class="bg-neutral-900 rounded-3xl overflow-hidden border border-white/10 hover:-translate-y-2 transition">
+                    <div class="overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800"
+                            class="w-full h-52 object-cover transition duration-300 hover:scale-110" alt="Projet 2">
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Landing Page</h3>
+                        <p class="text-gray-400 text-sm mb-6">
+                            Page de présentation responsive avec design professionnel.
+                        </p>
+
+                        <div class="flex gap-3">
+                            <a href="#"
+                                class="flex-1 text-center bg-cyan-400 text-black py-2 rounded-full text-sm font-bold hover:scale-105 transition">
+                                Voir site
+                            </a>
+
+                            <a href="#"
+                                class="flex-1 text-center border border-white/20 py-2 rounded-full text-sm font-bold hover:bg-white hover:text-black transition">
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJET 3 -->
+                <div
+                    class="bg-neutral-900 rounded-3xl overflow-hidden border border-white/10 hover:-translate-y-2 transition">
+                    <div class="overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800"
+                            class="w-full h-52 object-cover transition duration-300 hover:scale-110" alt="Projet 3">
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Application Web</h3>
+                        <p class="text-gray-400 text-sm mb-6">
+                            Interface utilisateur rapide et moderne pour application web.
+                        </p>
+
+                        <div class="flex gap-3">
+                            <a href="#"
+                                class="flex-1 text-center bg-cyan-400 text-black py-2 rounded-full text-sm font-bold hover:scale-105 transition">
+                                Voir site
+                            </a>
+
+                            <a href="#"
+                                class="flex-1 text-center border border-white/20 py-2 rounded-full text-sm font-bold hover:bg-white hover:text-black transition">
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- BOUTON CONTACT -->
+            <div class="flex justify-center mt-14 md:mt-16">
+                <a href="contact.html" class="w-[220px] h-[56px] flex items-center justify-center rounded-full bg-cyan-400 text-black font-bold text-base shadow-lg animate-bounce
+         transition duration-300
+         hover:scale-[1.2]
+         hover:bg-cyan-300
+         hover:shadow-[0_0_25px_rgba(34,211,238,0.9)]">
+                    Me contacter
+                </a>
+            </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-white/10 py-8">
+        <div class="max-w-7xl mx-auto px-5 md:px-6 flex flex-col items-center gap-5">
+            <p class="text-gray-400 text-sm text-center">
+                © 2026 Mungwana Obed. Tous droits réservés.
+            </p>
+
+            <div class="flex gap-6">
+                <a href="https://www.linkedin.com/in/obed-mungwana-18b1173b4/" target="_blank" rel="noopener noreferrer"
+                    class="w-[42px] h-[42px] flex items-center justify-center text-[24px] hover:text-[#0077B5]">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a href="https://wa.me/243974472306" target="_blank" rel="noopener noreferrer"
+                    class="w-[42px] h-[42px] flex items-center justify-center text-[24px] hover:text-[#25D366]">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+                <a href="https://instagram.com/obedodon" target="_blank" rel="noopener noreferrer"
+                    class="w-[42px] h-[42px] flex items-center justify-center text-[24px] hover:text-[#E4405F]">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

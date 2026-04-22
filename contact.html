@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Portfolio Obed</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body class="bg-black text-white font-sans overflow-x-hidden">
+
+    <!-- HEADER -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-5 md:px-6 py-5 flex items-center justify-between">
+            <a href="index.html" class="text-3xl md:text-2xl font-bold tracking-tight">Hello</a>
+
+            <div class="flex items-center gap-4 md:gap-5">
+                <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+                    <a href="index.html" class="hover:text-cyan-400 transition">Accueil</a>
+                    <a href="projets.html" class="hover:text-cyan-400 transition">Projets</a>
+                    <a href="contact.html" class="hover:text-cyan-400 transition">Contact</a>
+                </nav>
+
+                <span class="text-cyan-400 text-3xl md:text-2xl leading-none">
+                    <i class="fas fa-moon"></i>
+                </span>
+
+                <details class="md:hidden relative">
+                    <summary class="list-none cursor-pointer text-4xl leading-none">
+                        <i class="fas fa-bars"></i>
+                    </summary>
+
+                    <div
+                        class="absolute right-0 top-full mt-4 w-52 rounded-2xl border border-white/10 bg-neutral-900 shadow-2xl overflow-hidden">
+                        <a href="index.html" class="block px-6 py-4 hover:text-cyan-400 transition">Accueil</a>
+                        <a href="contact.html" class="block px-6 py-4 hover:text-cyan-400 transition">Contact</a>
+                        <a href="projets.html" class="block px-6 py-4 hover:text-cyan-400 transition">Projets</a>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION CONTACT -->
+    <section class="min-h-screen pt-28 md:pt-32 pb-16 flex items-center">
+        <div class="w-full max-w-7xl mx-auto px-5 md:px-6">
+            <div class="mb-12 text-center md:text-left">
+                <p class="uppercase tracking-[0.18em] text-cyan-400 font-extrabold text-xl md:text-xs mb-6">
+                    CONTACT
+                </p>
+                <h2 class="text-4xl md:text-7xl font-black text-cyan-400 mb-8">Me contacter</h2>
+                <p class="text-lg md:text-xl text-gray-300 leading-relaxed max-w-2xl">
+                    Parlons de votre projet. Je serais ravi de vous aider à créer une interface claire, moderne et
+                    efficace.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-start">
+                <div class="space-y-6">
+                    <div class="rounded-3xl border border-white/10 bg-neutral-900 p-6">
+                        <h3 class="text-xl font-bold mb-2 text-cyan-400">Email</h3>
+                        <p class="text-gray-300 break-all">obedodon4@gmail.com</p>
+                    </div>
+
+                    <div class="rounded-3xl border border-white/10 bg-neutral-900 p-6">
+                        <h3 class="text-xl font-bold mb-2 text-cyan-400">WhatsApp</h3>
+                        <p class="text-gray-300">+243 974 472 306</p>
+                    </div>
+
+                    <div class="rounded-3xl border border-white/10 bg-neutral-900 p-6">
+                        <h3 class="text-xl font-bold mb-2 text-cyan-400">Disponibilité</h3>
+                        <p class="text-gray-300">Disponible pour vos projets web modernes et responsive.</p>
+                    </div>
+                </div>
+
+                <form class="p-8 rounded-3xl border border-white/10 space-y-6 bg-neutral-900">
+                    <input type="text" placeholder="Nom"
+                        class="w-full bg-transparent border-b border-gray-500 py-3 outline-none focus:border-cyan-400 transition text-white">
+                    <input type="email" placeholder="Email"
+                        class="w-full bg-transparent border-b border-gray-500 py-3 outline-none focus:border-cyan-400 transition text-white">
+                    <textarea placeholder="Message" rows="5"
+                        class="w-full bg-transparent border-b border-gray-500 py-3 outline-none focus:border-cyan-400 transition text-white"></textarea>
+                    <button type="submit"
+                        class="w-full bg-cyan-400 text-black font-bold py-4 rounded-full hover:scale-[1.02] transition">
+                        Envoyer
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-white/10 py-8">
+        <div class="max-w-7xl mx-auto px-5 md:px-6 flex flex-col items-center justify-center gap-5 text-center">
+            <p class="text-gray-400 text-sm md:text-base">
+                © 2026 Mungwana Obed. Tous droits réservés.
+            </p>
+
+            <div class="flex items-center justify-center gap-8">
+                <a href="https://www.linkedin.com/in/obed-mungwana-18b1173b4/" target="_blank" rel="noopener noreferrer"
+                    class="w-[42px] h-[42px] md:w-[52px] md:h-[52px] flex items-center justify-center text-[24px] md:text-[30px] leading-none hover:text-[#0077B5] transition">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a href="https://wa.me/243974472306" target="_blank" rel="noopener noreferrer"
+                    class="w-[42px] h-[42px] md:w-[52px] md:h-[52px] flex items-center justify-center text-[24px] md:text-[30px] leading-none hover:text-[#25D366] transition">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+                <a href="https://instagram.com/obedodon" target="_blank" rel="noopener noreferrer"
+                    class="w-[42px] h-[42px] md:w-[52px] md:h-[52px] flex items-center justify-center text-[24px] md:text-[30px] leading-none hover:text-[#E4405F] transition">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
